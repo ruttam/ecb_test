@@ -1,0 +1,87 @@
+{
+    "get_response_data": [
+       {
+           "protocol": "https",
+           "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/M..EUR.SP00.A",
+           "code": 200
+       },
+       {
+           "protocol": "http",
+           "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/M..EUR.SP00.A",
+           "code": 200
+       },
+       {
+           "protocol": "https",
+           "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/M...SP00.A",
+           "code": 200
+       },
+       {
+           "protocol": "https",
+           "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/M...SP00.A",
+           "code": 200
+       },
+       {
+           "protocol": "https",
+           "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/M.EUR.EUR.SP00.A",
+           "code": 404
+       },
+       {
+           "protocol": "https",
+           "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/M.EUR.SP00.A",
+           "code": 400
+       }
+    ],
+    "OR_data": [
+        {
+            "headers": {"Accept": "application/xml"},
+            "protocol": "https",
+            "crnc_lh": ["NOK", "JPY", "DKK"],
+            "denom": "EUR",
+            "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/",
+            "code": 200
+        },
+        {
+            "headers": {"Accept": "application/xml"},
+            "protocol": "https",
+            "crnc_lh": ["USD", "GBP"],
+            "denom": "EUR",
+            "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/",
+            "code": 200
+        }
+    ],
+    "modified_since_no_change_data": [
+        {
+            "protocol": "https",
+            "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/M.NOK.EUR.SP00.A"
+        }
+    ],
+    "supported_format_data": [
+        {
+            "format": "application/json",
+            "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/M.NOK.EUR.SP00.A"
+        },
+        {
+            "format": "application/xml",
+            "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/M.NOK.EUR.SP00.A"
+        }
+    ],
+    "unsupported_format_data": [
+        {
+            "format": "application/ecmascript",
+            "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/M.NOK.EUR.SP00.A"
+        }
+    ],
+    "number_observations_data": [
+        {
+            "headers": {"format": "application/vnd.sdmx.genericdata+xml;version=2.1"},
+            "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/D.NOK.EUR.SP00.A",
+            "number": 13
+        }
+    ],
+    "get_latency_data": [
+        {
+            "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/M.NOK.EUR.SP00.A",
+            "expected_ms": 200
+        }
+    ]
+}
