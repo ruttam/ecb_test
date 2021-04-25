@@ -13,4 +13,4 @@ jobs:
       - run:
           name: Running tests
           command:
-            python3 test/API_Test.py
+            pytest test/API_Test.py
