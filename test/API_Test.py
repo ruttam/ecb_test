@@ -10,7 +10,7 @@ import requests
 logger = logging.getLogger('Logger')
 
 def get_test_data(name, *params):
-    with open("../test_data/test_source.json", 'r') as file:
+    with open("test_data/test_source.json", 'r') as file:
         json_obj = json.load(file)
     data = json_obj[name]
     res = []
