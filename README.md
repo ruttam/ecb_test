@@ -140,7 +140,7 @@ On every push to repository, the pipeline on circleCI (https://app.circleci.com/
 
 The circleCI configuration yml file can be found in: `.circleci/config.yml`. It starts with creating a clean testing environment (starts up a docker container) with the requirements for python version and installs packages defined in `requirements.txt` file. Finally, it runs the tests.
 
-![CircleCi pipeline](img/CircleCI_pipeline.png)
+![CircleCi pipeline](img/CircleCI_pipeline.jpg)
 
 ## Final notes
 
