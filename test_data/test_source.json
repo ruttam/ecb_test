@@ -35,7 +35,7 @@
         {
             "headers": {"Accept": "application/xml"},
             "protocol": "https",
-            "crnc_lh": ["NOK", "JPY", "DKK"],
+            "crnc": ["NOK", "JPY", "DKK"],
             "denom": "EUR",
             "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/",
             "code": 200
@@ -43,7 +43,7 @@
         {
             "headers": {"Accept": "application/xml"},
             "protocol": "https",
-            "crnc_lh": ["USD", "GBP"],
+            "crnc": ["USD", "GBP"],
             "denom": "EUR",
             "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/",
             "code": 200
@@ -81,7 +81,7 @@
     "get_latency_data": [
         {
             "url": "sdw-wsrest.ecb.europa.eu/service/data/EXR/M.NOK.EUR.SP00.A",
-            "expected_ms": 200
+            "expected_ms": 400
         }
     ]
 }
